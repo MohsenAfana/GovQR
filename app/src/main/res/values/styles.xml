@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="normal_text_style">
+        <item name="android:fontFamily">@font/frutigerltarabic_55roman</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="input_label_text_style">
+        <item name="android:fontFamily">@font/frutigerltarabic_65bold</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
+        <item name="android:textColor">@color/colorTextGreyDark</item>
+    </style>
+
+    <style name="small_text_style">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_55roman</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/colorTextGrey</item>
+    </style>
+
+    <style name="small_text_style.bold">
+        <item name="android:fontFamily">@font/frutigerltarabic_65bold</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textColor">@color/colorTextGrey</item>
+    </style>
+
+    <style name="bold_text_style">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_65bold</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="title_text_style">
+        <item name="android:fontFamily">@font/frutigerltarabic_55roman</item>
+        <item name="android:textSize">@dimen/title_font_size</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="title_text_style.bold">
+        <item name="android:fontFamily">@font/frutigerltarabic_65bold</item>
+    </style>
+
+    <style name="title_text_style.toolbar">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_65bold</item>
+    </style>
+
+
+    <style name="input_style">
+        <item name="android:background">@drawable/rounded_rect</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_55roman</item>
+        <item name="android:minHeight">@dimen/default_view_height</item>
+        <item name="android:paddingLeft">@dimen/default_padding</item>
+        <item name="android:paddingRight">@dimen/default_padding</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
+    </style>
+
+    <style name="input_style.selectable">
+        <item name="android:clickable">true</item>
+        <item name="android:drawableEnd">@drawable/ic_keyboard_arrow_down_black_18dp</item>
+        <item name="android:drawablePadding">@dimen/default_padding</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:longClickable">false</item>
+    </style>
+
+    <style name="tab_style" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_55roman</item>
+    </style>
+
+    <style name="btn_style">
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_75black</item>
+        <item name="android:minHeight">@dimen/default_view_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
+    </style>
+
+    <style name="btn_style2">
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_75black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
+    </style>
+
+    <style name="btn_style.bordless">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:fontFamily">@font/frutigerltarabic_55roman</item>
+        <item name="android:minHeight">@dimen/default_view_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/default_font_size</item>
+    </style>
+
+
+</resources>

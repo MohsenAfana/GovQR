@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_drawable_padding">16dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="margin_between_views">8dp</dimen>
+
+    <dimen name="title_font_size">16sp</dimen>
+    <dimen name="default_font_size">14sp</dimen>
+    <dimen name="small_font_size">12sp</dimen>
+    <dimen name="tab_font_size">12sp</dimen>
+
+    <dimen name="default_view_height">43dp</dimen>
+
+
+    <dimen name="devider_height">16dp</dimen>
+
+
+</resources>

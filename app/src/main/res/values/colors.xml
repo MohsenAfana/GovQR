@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29313F</color>
+    <color name="colorPrimaryDark">#202934</color>
+    <color name="colorAccent">#2EB9C7</color>
+    <color name="colorAccentLight">#57e3f1</color>
+
+    <color name="colorAccentSecondary">#37a4af</color>
+    <color name="viewBg">#f8f8f8</color>
+    <color name="btn_disabled">#999</color>
+    <color name="lbl_value">#222222</color>
+
+
+
+    <color name="colorBg">#f8f8f8</color>
+    <color name="colorResideMenuBg">#f6f6f6</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorLightGrey">#e7e7e7</color>
+    <color name="colorDarkerGrey">#dfdfdf</color>
+    <color name="colorCicleGrey">#f8f8f8</color>
+    <color name="colorIconGrey">#d1d5da</color>
+
+    <color name="colorDivider">#e6ebec</color>
+    <color name="colorTextPrimary">#000</color>
+    <color name="colorTextGrey">#9e9e9e</color>
+    <color name="colorTextGreyDark">#666666</color>
+
+    <!--<color name="colorTextHint">#9e9e9e</color>-->
+    <color name="colorTextHint">#d1d5da</color>
+    <color name="colorTextHintRequired">#f00</color>
+    <color name="colorTextLink">#1785a1</color>
+
+    <color name="colorTabBg">#333333</color>
+
+    <color name="colorDialogsItemBg">#e6e6e6</color>
+
+</resources>

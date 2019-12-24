@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GovQR</string>
+    <string name="qr_scan">scan the QR code</string>
+</resources>

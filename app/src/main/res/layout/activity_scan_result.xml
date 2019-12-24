@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".ScanResultActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="back"
+            android:src="@drawable/ic_arrow_forward_white_24dp" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/title_text_style.toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="تفاصيل" />
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:divider="@drawable/divider"
+            android:dividerPadding="@dimen/margin_between_views"
+            android:padding="@dimen/default_padding"
+            android:showDividers="middle"
+            android:stretchColumns="1"
+            android:visibility="visible">
+
+            <TableRow android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_views"
+                android:padding="@dimen/margin_between_views">
+
+
+                <TextView
+                    style="@style/bold_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="التاريخ" />
+
+                <TextView
+                    android:id="@+id/dateTextView"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary" />
+            </TableRow>
+
+            <TableRow android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_between_views">
+
+
+                <TextView
+                    style="@style/bold_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رقم السند" />
+
+                <TextView
+                    android:id="@+id/bondNoTextView"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_between_views">
+
+
+                <TextView
+                    style="@style/bold_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رقم الهوية" />
+
+                <TextView
+                    android:id="@+id/idTextView"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_between_views">
+
+
+                <TextView
+                    style="@style/bold_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="الاسم" />
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_between_views">
+
+
+                <TextView
+                    style="@style/bold_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="الوزارة" />
+
+                <TextView
+                    android:id="@+id/minisTextView"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary" />
+            </TableRow>
+
+
+            <TableRow android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_views"
+                android:padding="@dimen/margin_between_views">
+
+
+                <TextView
+                    style="@style/bold_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="المبلغ" />
+
+                <TextView
+                    android:id="@+id/amountTextView"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary" />
+            </TableRow>
+
+
+            <TableRow android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_between_views">
+
+
+                <TextView
+                    style="@style/bold_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="المبلغ بالحروف" />
+
+                <TextView
+                    android:id="@+id/amountTextTextView"
+                    style="@style/normal_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:visibility="visible">
+
+                <Button
+                    android:id="@+id/sendButton"
+                    style="@style/btn_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="3"
+                    android:text="دفع" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/emptyLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sad" />
+
+            <TextView
+                android:id="@+id/msgTextView"
+                style="@style/bold_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
